@@ -24,8 +24,9 @@ body {
   display: flex;
 }
 
-.hearth{
-  width: 5vh;
+.heart{
+  width: 1vh;
+  position: absolute;
 }
 
 .egg {
