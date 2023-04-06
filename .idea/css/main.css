@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#game {
+  background-color: #DDD;
+  height: 100vh;
+  aspect-ratio: 1.2;
+  position: relative;
+}
+
+#life{
+  position:absolute;
+  right: 0;
+
+  display: flex;
+}
+
+.hearth{
+  width: 5vh;
+}
+
+.egg {
+  height: 5vh;
+  position: absolute;
+
+}
