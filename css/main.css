@@ -8,29 +8,53 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
+/*#start-game{*/
+
+/*}*/
 
 #game {
+  display: none;
   background-color: #DDD;
   height: 100vh;
   aspect-ratio: 1.2;
   position: relative;
 }
 
-#life{
-  position:absolute;
+#end-game{
+  display: none;
+}
+
+#life {
+  position: absolute;
   right: 0;
 
   display: flex;
 }
 
-.heart{
-  width: 1vh;
-  position: absolute;
+.heart {
+  width: 5vh;
 }
 
 .egg {
   height: 5vh;
   position: absolute;
+}
 
+.basket {
+  width: 20vh;
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-20%);
+}
+
+#score{
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-family: monospace;
+  font-size: 2rem;
+  padding: 0.5rem;
 }
